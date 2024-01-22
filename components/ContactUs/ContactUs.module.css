@@ -1,0 +1,56 @@
+/* ContactUs.module.css */
+.container {
+    display: flex;
+    justify-content: space-between; /* Space out items to the extremes of the container */
+    align-items: flex-start; /* Align items to the top */
+    padding: 50px;
+    height: calc(100vh - 40px); /* Full height minus padding */
+    width: 1100px;
+}
+
+.brandSection {
+    /* Adjust based on the size and alignment you need for the logo and title */
+}
+
+.formWrapper {
+    max-width: 600px;
+    width: 100%;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.submitGroup {
+    text-align: right;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Also rounded */
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.h1 {
+    color: #666666;
+}

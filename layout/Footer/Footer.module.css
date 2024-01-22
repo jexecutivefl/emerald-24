@@ -1,0 +1,43 @@
+/* FooterComponent.module.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #ffffff;
+    border-top: 1px solid #eaeaea;
+}
+
+.quickLinks,
+.locations {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #0070f3;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.location {
+    margin-right: 20px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone,
+.email,
+.address {
+    margin-bottom: 5px;
+}
+
+/* You might need to adjust the styles to better match the provided image. */

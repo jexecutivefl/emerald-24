@@ -1,0 +1,43 @@
+.accordionWrapper {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+
+.accordionHeader {
+    padding: 15px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordionBody {
+    padding: 15px;
+    background-color: white;
+}
+
+.accordionToggleIcon {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .accordionWrapper {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .accordionHeader {
+        padding: 10px; /* Slightly smaller padding for smaller screens */
+    }
+
+    .accordionBody {
+        padding: 10px; /* Consistent with header padding */
+    }
+
+    .accordionToggleIcon {
+        font-size: 20px; /* Slightly smaller icon for smaller screens */
+    }
+}

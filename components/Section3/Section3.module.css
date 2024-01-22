@@ -1,0 +1,36 @@
+.medicalSection {
+    background-color: #e7ffef;
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* This centers the text inside each element */
+    height: 410px;
+}
+
+.medicalTitle {
+    font-size: 50px;
+    color: #474350;
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.button {
+    /* Ensure the button is centered */
+    display: flex;
+    justify-content: center;
+    width: 100%; /* This makes the button's container take full width */
+}
+
+.greenUnderline {
+    border-bottom: 2px solid green; /* Adjust the style as per design requirement */
+}
+
+.medicalDescription {
+    /* Add other styles as needed */
+    margin-bottom: 20px; /* Add space below the description */
+    color: #4b446c;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}

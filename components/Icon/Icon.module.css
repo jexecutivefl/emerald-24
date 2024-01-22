@@ -1,0 +1,20 @@
+/* Icon.module.css */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px; /* Adjust size as needed */
+    height: 120px;
+    border-radius: 50%; /* Makes it circular */
+    margin: 0 auto 20px; /* Centers the icon and adds margin */
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    /* Ensure the image fits within the icon container */
+}
+
+
+
+

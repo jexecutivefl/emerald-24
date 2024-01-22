@@ -1,0 +1,48 @@
+.card {
+    width: 270px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.iconWrapper {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center; /* Vertically center the icon */
+    justify-content: center; /* Horizontally center the icon */
+    border-radius: 50%; /* Makes the border a circle */
+    border: 1px solid green; /* Initial border color */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.card:hover .iconWrapper {
+    border-color: white; /* Changes the border color to white on hover */
+}
+
+.card:hover .icon {
+    filter: brightness(0) invert(1); /* Changes the icon to white on hover */
+}
+
+.title {
+    font-size: 24px; /* Adjust as needed for an h2 */
+    color: #4b446c; /* Initial color */
+}
+
+.card:hover {
+    background-color: #54bc77; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+
+.card:hover .title {
+    color: white; /* Ensures that the title also turns white on hover */
+}

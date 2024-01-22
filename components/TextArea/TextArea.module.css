@@ -1,0 +1,20 @@
+.textAreaContainer {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.textArea {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 150px; /* Adjust as needed */
+    resize: vertical; /* Allow vertical resizing */
+}

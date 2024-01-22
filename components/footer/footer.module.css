@@ -1,0 +1,33 @@
+.container {
+    background-color: #fff;
+    height: 300px; /* Updated height */
+    position: relative;
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+    width: 100%; /* Sets the width to be 100% of its parent */
+}
+
+.logoContainer {
+    position: absolute;
+    right: 150px;
+    bottom: 150px; /* Adjusted to accommodate the new footer section */
+}
+
+.lowerFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Ensures the width matches the container */
+    height: 90px; /* Height of the lower footer section */
+    background-color: #1d242d; /* Different color for the lower footer section */
+    color: white; /* Assuming you want white text color */
+    padding-right: 20px; /* Padding for text alignment */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.footerText {
+    position: absolute;
+    left: 90px; /* Align text 90px from the left border */
+    bottom: 10px; /* Adjust for padding and alignment */
+    text-align: left; /* Align text to the left */
+    margin: 0; /* Removes any default margins */
+}
+

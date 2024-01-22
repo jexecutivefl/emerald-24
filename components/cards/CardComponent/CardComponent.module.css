@@ -1,0 +1,28 @@
+/* Card.module.css */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px; /* Adjust width as needed */
+    /* Remove any fixed height if set, let content define the height */
+    margin: auto; /* Centers the card vertically and horizontally if within a flex or grid container */
+}
+
+.title {
+    color: #333;
+    margin: 10px 0;
+}
+
+.content {
+    color: #666;
+    margin-bottom: 20px; /* Adds a little space below the content */
+}
+
+/* Adjustments for the icon to ensure it does not stretch the card unnecessarily */
+.icon {
+    margin-bottom: 20px; /* Adds space below the icon */
+}
