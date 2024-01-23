@@ -5,7 +5,7 @@ import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
 
-export default function TypesOfMedicalMarijuanaYouNeedToKnow() {
+export default function WhatIsTheBestMedicalMarijuanaForEnergy() {
 
 
   const [isMobile, setIsMobile] = useState(false);

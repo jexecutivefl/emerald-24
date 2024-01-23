@@ -1,0 +1,78 @@
+.blogCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 750px;
+    height: 440px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.blogCardHeader {
+    padding: 1rem;
+    width: 100%;
+}
+
+.blogCardBody {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+
+.blogCardImage {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.blogCardTitle {
+    font-size: 1.5rem; /* Keep the title font size */
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.blogCardDate, .blogCardParagraph, .blogCardCategory, .blogCardButton {
+    font-size: 20px; /* Set everything else to 16px */
+    color: #333;
+}
+
+.blogCardDate {
+    margin-bottom: 1rem;
+}
+
+.blogCardParagraph {
+    margin-right: 1rem;
+}
+
+.blogCardCategories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.blogCardCategory {
+    background-color: #eee;
+    border-radius: 16px;
+    padding: 0.25rem 0.75rem;
+    color: #333;
+}
+
+.blogCardButton {
+    padding: 0.5rem 1rem;
+    background-color: #54bc77; /* Use brand color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blogCardButton:hover {
+    background-color: #006400;
+}

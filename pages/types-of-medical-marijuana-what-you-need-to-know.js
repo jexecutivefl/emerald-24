@@ -4,9 +4,8 @@ import HomeDesktop from "@/views/Home/HomeDesktop";
 import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
-import BlogDesktop from "@/views/Blog";
 
-export default function Blog() {
+export default function TypesOfMedicalMarijuanaWhatYouNeedToKnow() {
 
 
   const [isMobile, setIsMobile] = useState(false);
@@ -36,7 +35,7 @@ export default function Blog() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <BlogDesktop />}
+          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
         </main>
       </>
   );

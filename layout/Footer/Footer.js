@@ -5,7 +5,7 @@ import styles from './Footer.module.css'; // Assuming the CSS module file is nam
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <p>Footer</p>
+
         </footer>
     );
 };
