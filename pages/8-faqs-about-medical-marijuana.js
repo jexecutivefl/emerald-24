@@ -5,7 +5,7 @@ import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
 
-export default function MedicalMarijuanaCanItHelpRestoreBalance() {
+export default function Home() {
 
 
   const [isMobile, setIsMobile] = useState(false);

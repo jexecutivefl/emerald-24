@@ -31,7 +31,8 @@ export default function BlogDesktop() {
             ],
             imageUrl: "EM-medical-marijuana-for-energy-image.jpg",
             imageAlt: "Happy woman",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/what-is-the-best-medical-marijuana-for-energy"
         },
         {
             title: "HOW TO RENEW YOUR FLORIDA MEDICAL MARIJUANA CARD",
@@ -43,7 +44,9 @@ export default function BlogDesktop() {
             ],
             imageUrl: "EM-renew-florida-medical-marijuana-card-image.jpg",
             imageAlt: "Various forms of cannabis",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/how-to-renew-your-florida-medical-marijuana-card"
+
         },
         {
             title: "MEDICAL MARIJUANA AND WEIGHT LOSS: WHAT YOU SHOULD KNOW",
@@ -67,7 +70,8 @@ export default function BlogDesktop() {
             ],
             imageUrl: "EM-types-of-medical-marijuana-image.jpg",
             imageAlt: "Cannabis buds and eyedropper",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/types-of-medical-marijuana-what-you-need-to-know"
         },
         {
             title: "MEDICAL MARIJUANA LAW IN FLORIDA",
@@ -77,9 +81,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "If you’re considering using medical marijuana in Florida, you may have some questions about medical marijuana law and how it applies to you. Here are...",
             ],
-            imageUrl: "image-for-medical-marijuana-law-florida.jpg",
+            imageUrl: "EM-medical-marijuana-law-image.jpg",
             imageAlt: "Marijuana plant in office",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-law-in-florida"
         },
         {
             title: "WHAT IS THE COST OF MEDICAL MARIJUANA IN FLORIDA?",
@@ -89,9 +94,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Medical marijuana has gained significant popularity as a viable treatment option for various medical conditions. But you can be wondering about the cost of medical...",
             ],
-            imageUrl: "image-for-cost-of-medical-marijuana-florida.jpg",
+            imageUrl: "EM-cost-medical-marijuana-Florida-image.jpg",
             imageAlt: "Medical marijuana in prescription container",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/what-is-the-cost-of-medical-marijuana-in-florida"
         },
         {
             title: "WHAT IS THE FLORIDA MEDICAL MARIJUANA USE REGISTRY?",
@@ -101,9 +107,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Let’s eavesdrop on someone who’s thinking of using medical marijuana for an ailment they haven’t yet found a satisfactory solution for. This person may be...",
             ],
-            imageUrl: "image-for-florida-medical-marijuana-use-registry.jpg",
+            imageUrl: "Emerald-medical-marijuana-use-image.jpg",
             imageAlt: "Marijuana leaf and stethoscope",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/what-is-the-florida-medical-marijuana-use-registry"
         },
         {
             title: "MEDICAL MARIJUANA FOR SEIZURES: WHAT YOU NEED TO KNOW",
@@ -113,9 +120,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Seizures can be debilitating. They can have a profound impact on your physical and mental health. Around 3.4 million Americans live with epilepsy. But in...",
             ],
-            imageUrl: "image-for-medical-marijuana-for-seizures.jpg",
+            imageUrl: "EM-medical-marijuana-for-seizures-image.jpg",
             imageAlt: "Graphic of brain and lightning bolt on marijuana leaf",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-for-seizures-what-you-need-to-know"
         },
         {
             title: "WILL MEDICAL MARIJUANA USE MAKE ME AN ADDICT?",
@@ -125,9 +133,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "If you’re considering medical marijuana, you may have questions about its potential risks and benefits. This article will explore the topic of medical marijuana use...",
             ],
-            imageUrl: "image-for-medical-marijuana-addiction.jpg",
+            imageUrl: "EM-medical-marijuana-use-image.jpg",
             imageAlt: "Cannabis plant",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/will-medical-marijuana-use-make-me-an-addict"
         },
         {
             title: "RELIEF FROM MENOPAUSE SYMPTOMS: CAN MEDICAL MARIJUANA HELP?",
@@ -137,9 +146,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "When you’re a woman, relief from menopause symptoms is high on your list of “wants” when it comes to solving the annoyances and discomfort! You...",
             ],
-            imageUrl: "image-for-relief-from-menopause-symptoms.jpg",
+            imageUrl: "EM-menopause-symptoms-image.jpg",
             imageAlt: "Woman looking tired",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/relief-from-menopause-symptoms-can-medical-marijuana-help"
         },
         {
             title: "COMPARING DELIVERY METHODS FOR MEDICAL MARIJUANA",
@@ -149,9 +159,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "You cannot have failed to notice that medical marijuana has grown in popularity and been proven to offer countless benefits in treating many medical conditions....",
             ],
-            imageUrl: "image-for-delivery-methods-medical-marijuana.jpg",
+            imageUrl: "EM-delivery-methods-image.jpg",
             imageAlt: "Hand holding tablets, capsules, and pills",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/comparing-delivery-methods-for-medical-marijuana"
         },
         {
             title: "WHAT CAN CANNABINOIDS CURE?",
@@ -161,9 +172,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "There’s more and more good news about the benefits of medical marijuana, so it’s normal for us to go on our browser and type “what...",
             ],
-            imageUrl: "image-for-what-cannabinoids-cure.jpg",
+            imageUrl: "EM-cannabidiols-image.jpg",
             imageAlt: "Woman looking at CBD bottle",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/what-can-cannabinoids-cure"
         },
         {
             title: "BENEFITS OF MARIJUANA FOR BRAIN HEALTH",
@@ -173,9 +185,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "While scientists continue to work hard to understand the true effects of CBD, existing studies show that the benefits of marijuana include promoting overall brain...",
             ],
-            imageUrl: "image-for-marijuana-brain-health.jpg",
+            imageUrl: "Emerald-benefits-of-marijuana-image.jpg",
             imageAlt: "Artistic image of neural pathways",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/benefits-of-marijuana-for-brain-health"
         },
         {
             title: "TELL ME ABOUT MARIJUANA FOR DEPRESSION",
@@ -185,9 +198,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "In the United States, the legalization of marijuana use for medical and recreational purposes is a growing trend. Because of this, using marijuana for depression...",
             ],
-            imageUrl: "image-for-marijuana-depression.jpg",
+            imageUrl: "EM-marijuana-for-depression-image.jpg",
             imageAlt: "Man looking sad",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/tell-me-about-marijuana-for-depression"
         },
         {
             title: "THINKING ABOUT MARIJUANA FOR GLAUCOMA: SOME FACTS",
@@ -197,9 +211,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Glaucoma is the second leading cause of blindness worldwide and affects more than 60 million people. In the 1970s, there were reports that smoking marijuana...",
             ],
-            imageUrl: "image-for-marijuana-glaucoma.jpg",
+            imageUrl: "EM-marijuana-for-glaucoma-image.jpg",
             imageAlt: "Composite image of an eye and marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/thinking-about-marijuana-for-glaucoma-facts"
         },
         {
             title: "DOES MEDICAL MARIJUANA HELP WITH NAUSEA?",
@@ -209,9 +224,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "An upset stomach can turn a normal day into a rough one really fast. When your stomach turns and you start to feel queasy, it’s...",
             ],
-            imageUrl: "image-for-marijuana-nausea.jpg",
+            imageUrl: "EM-marijuana-help-with-nausea-image.jpg",
             imageAlt: "Man clutching his stomach",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/does-medical-marijuana-help-with-nausea"
         },
         {
             title: "MEDICAL MARIJUANA FOR SLEEP PROBLEMS",
@@ -221,9 +237,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Are you one of the millions of Americans suffering from sleep problems? Is lack of sleep interfering with your enjoyment and quality of life? Unfortunately,...",
             ],
-            imageUrl: "image-for-marijuana-sleep-problems.jpg",
+            imageUrl: "EM-marijuana-for-sleep-image.jpg",
             imageAlt: "Person lying in bed awake",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-for-sleep-problems"
         },
         {
             title: "HOW CAN I GET A FLORIDA MEDICAL MARIJUANA CARD?",
@@ -233,9 +250,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Friends have told you about the many amazing benefits of medical marijuana. You’ve done your research about how medical marijuana can treat the symptoms of...",
             ],
-            imageUrl: "image-for-florida-medical-marijuana-card.jpg",
+            imageUrl: "EM-Florida-medical-marijuana-card-image.jpg",
             imageAlt: "Florida state seal and marijuana leaves",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/how-get-florida-medical-marijuana-card"
         },
         {
             title: "MEDICAL MARIJUANA FOR CHRONIC PAIN",
@@ -245,9 +263,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Of all the wonderful benefits of medical marijuana, relieving chronic pain is at the top of the list. The availability of medical marijuana for chronic...",
             ],
-            imageUrl: "image-for-medical-marijuana-chronic-pain.jpg",
+            imageUrl: "Content-First-Blog-Images-800x600-15.jpg",
             imageAlt: "Man with Chronic Pain",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-for-chronic-pain"
         },
         // Continuing from the previous entries in the array
         {
@@ -258,9 +277,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Anxiety can consume us from time to time. It’s hardwired into our system. It lets us know that we aren’t safe. It gives us clues...",
             ],
-            imageUrl: "image-for-medical-marijuana-anxiety.jpg",
+            imageUrl: "Content-First-Blog-Images-800x600-8.jpg",
             imageAlt: "Medical Marijuana for Anxiety",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/does-medical-marijuana-help-with-anxiety"
         },
         {
             title: "USING MEDICAL MARIJUANA FOR THE FIRST TIME",
@@ -270,9 +290,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "You’ve done your homework, listened to your doctor’s advice, and decided that medical marijuana is right for you. Now what? Everything about medical marijuana can...",
             ],
-            imageUrl: "image-for-using-medical-marijuana-first-time.jpg",
+            imageUrl: "April-Blog-image.jpg",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/using-medical-marijuana-for-the-first-time"
         },
         {
             title: "CONFUSED ABOUT CBD? READ THIS.",
@@ -282,9 +303,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "If CBD confuses you, you’re not alone. Unfortunately, stories and myths about medical marijuana are abundant, while the facts and a concise understanding of the...",
             ],
-            imageUrl: "image-for-confused-about-cbd.jpg",
+            imageUrl: "March-Blog-Image.jpg",
             imageAlt: "Image of CBD Plant",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/confused-about-cbd-read-this"
         },
         {
             title: "8 FAQS ABOUT MEDICAL MARIJUANA",
@@ -294,9 +316,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "We are proud to offer Medical Marijuana in Sarasota and want to clear up a few things for our patients and prospective patients about this...",
             ],
-            imageUrl: "image-for-medical-marijuana-faqs.jpg",
+            imageUrl: "addict-1032371_1280.png",
             imageAlt: "Medical Marijuana FAQs",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/8-faqs-about-medical-marijuana"
         },
         {
             title: "LET’S GET EDUCATED – MEDICAL MARIJUANA FACTS",
@@ -306,9 +329,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "We’re all about education here at Emerald Medical Group. We believe that you must have all of the information you need about medical marijuana so...",
             ],
-            imageUrl: "image-for-medical-marijuana-education.jpg",
+            imageUrl: "Screenshot-2022-01-22-114523.png",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/lets-get-educated-medical-marijuana"
         },
         {
             title: "MEDICAL MARIJUANA LAWS FOR SNOWBIRDS!",
@@ -318,9 +342,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Medical marijuana laws are confusing! Especially if you travel from state to state. Many people don’t realize that the laws regarding medical cannabis are not...",
             ],
-            imageUrl: "image-for-medical-marijuana-laws-snowbirds.jpg",
+            imageUrl: "Florida_sun.png",
             imageAlt: "Medical Marijuana Laws for Snowbirds",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-laws-for-snowbirds"
         },
         {
             title: "MEDICAL MARIJUANA: LET’S TALK ABOUT THE STIGMA",
@@ -330,9 +355,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Although cannabis use has been legalized to some extent in 44 states, there is still a stigma about its use. That stigma comes from the...",
             ],
-            imageUrl: "image-for-medical-marijuana-stigma.jpg",
+            imageUrl: "labs.png",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-lets-talk-about-the-stigma"
         },
         {
             title: "YOU CAN’T USE MARIJUANA. YOU HAVE KIDS!",
@@ -342,9 +368,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Have you ever wound up in a conversation that sounds something like this… “You can’t smoke marijuana. You’ve got kids! Are you out of your...",
             ],
-            imageUrl: "image-for-marijuana-parents.jpg",
+            imageUrl: "boys-1149665_1280.jpg",
             imageAlt: "Can I use marijuana if I have kids?",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/you-cant-use-marijuana-you-have-kids"
         },
         {
             title: "CANNABIS INDICA VS. CANNABIS SATIVA: LET’S DISCUSS THE BASICS",
@@ -354,9 +381,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "If you’re new to medical marijuana, you may be a little confused about the best type or strain. The different types of marijuana are broken...",
             ],
-            imageUrl: "image-for-indica-vs-sativa.jpg",
+            imageUrl: "addict-1032371_1280.png",
             imageAlt: "Cannabis Indica vs. Cannabis Sativa",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/cannabis-indica-vs-cannabis-sativa-lets-discuss-the-basics"
         },
         {
             title: "DID YOU KNOW FLORIDA MEDICAL MARIJUANA LAWS HAVE CHANGED?",
@@ -366,9 +394,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Did you know the laws around medical marijuana have changed here in Florida? If the answer is no, you are not alone. Many people are...",
             ],
-            imageUrl: "image-for-florida-medical-marijuana-laws.jpg",
+            imageUrl: "Florida.png",
             imageAlt: "Medical Marijuana in Florida",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/florida-medical-marijuana-laws"
         },
         {
             title: "HOW LONG DOES THC STAY IN YOUR SYSTEM?",
@@ -378,9 +407,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "THC, the active compound found in medical and recreational marijuana, causes euphoric effects that last a few hours, but it can remain in your system...",
             ],
-            imageUrl: "image-for-thc-in-system.jpg",
+            imageUrl: "THC.png",
             imageAlt: "THC",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/how-long-does-thc-stay-in-your-system"
         },
         {
             title: "MEDICAL MARIJUANA: MISCONCEPTIONS ABOUT THE MEDICINAL PLANT",
@@ -390,9 +420,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "The legalization of marijuana, medical marijuana, is a controversial topic. And even though marijuana is fully legalized or medically legalized in most states, there are...",
             ],
-            imageUrl: "image-for-medical-marijuana-misconceptions.jpg",
+            imageUrl: "brain-770044_1280.jpg",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-misconceptions"
         },
         {
             title: "MEDICAL MARIJUANA: IS CBD ADDICTIVE?",
@@ -402,9 +433,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "CBD is everywhere! CBD can be found in oils, creams, patches, beauty products, salves, tinctures, vapes, and edibles. You name it. Someone has probably found...",
             ],
-            imageUrl: "image-for-is-cbd-addictive.jpg",
+            imageUrl: "bathing-918720_1280.jpg",
             imageAlt: "CBD",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-is-cbd-addictive"
         },
         {
             title: "CAN CBD BENEFIT MENTAL HEALTH? YES!",
@@ -414,9 +446,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Do you struggle with mental health issues? You are not alone. It’s no surprise with everything in the last year, the number of Americans struggling...",
             ],
-            imageUrl: "image-for-cbd-mental-health.jpg",
+            imageUrl: "person-731142_1280.jpg",
             imageAlt: "Mental Health, CBD",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/can-cbd-benefit-mental-health-yes"
         },
         {
             title: "IF I HAVE ASTHMA, CAN I USE MEDICAL MARIJUANA?",
@@ -426,9 +459,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Constricted lungs, dizziness, shortness of breath, and wheezing can signal asthma! Asthma attacks are always uncomfortable and sometimes even dangerous if you’re not careful. If...",
             ],
-            imageUrl: "image-for-medical-marijuana-asthma.jpg",
+            imageUrl: "lungs-39981_1280.png",
             imageAlt: "Asthma",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/if-i-have-asthma-can-i-use-medical-marijuana"
         },
         {
             title: "MEDICAL MARIJUANA: ALL ABOUT DOSING EDIBLES",
@@ -438,9 +472,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "The days of only being able to smoke medical marijuana are long gone! There are many ways to consume medical marijuana. They each have their...",
             ],
-            imageUrl: "image-for-dosing-edibles.jpg",
+            imageUrl: "young-woman-2239269_1280.jpg",
             imageAlt: "Edibles",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-dosing-edibles"
         },
         {
             title: "MEDICAL MARIJUANA: TREATING VETERANS WITH PTSD",
@@ -450,9 +485,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Several studies show cannabis has proven medicinal properties, including relieving post-traumatic stress disorder (PTSD) symptoms. So much so that 36 states in the U.S. have...",
             ],
-            imageUrl: "image-for-marijuana-veterans-ptsd.jpg",
+            imageUrl: "soldier-294476_1280.png",
             imageAlt: "Veterans, PTSD",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "medical-marijuana-veterans-ptsd"
         },
         {
             title: "MEDICAL MARIJUANA: CAN IT RESTORE BALANCE?",
@@ -462,9 +498,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "The medical field is finally recognizing the marvels of medical marijuana. No longer is its healing potential hampered by being linked to drug dealers, potheads,...",
             ],
-            imageUrl: "image-for-medical-marijuana-balance.jpg",
+            imageUrl: "girl-1064659_1280.jpg",
             imageAlt: "Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-can-it-restore-balance"
         },
         {
             title: "CONFUSED ABOUT MEDICAL MARIJUANA AND CBD? KEEP READING!",
@@ -474,9 +511,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "CBD has become very popular in the last few years. You can find it in pharmacies, dispensaries, box stores, and even online. Many people are...",
             ],
-            imageUrl: "image-for-confused-about-marijuana-cbd.jpg",
+            imageUrl: "sunblock-1461397_1920.jpg",
             imageAlt: "CBD",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/confused-about-medical-marijuana-cbd"
         },
         {
             title: "MEDICAL MARIJUANA BENEFITS AND USES",
@@ -486,9 +524,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "What are the real medical marijuana benefits? And how can you make sure you’re getting the best quality and using it appropriately? Medical product has...",
             ],
-            imageUrl: "image-for-medical-marijuana-benefits.jpg",
+            imageUrl: "girl-984065_1280.jpg",
             imageAlt: "Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-benefits-and-uses"
         },
         {
             title: "CANNABIS: LET’S TALK ABOUT THE EFFECTS",
@@ -498,9 +537,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Due to high demand from patients and medical professionals, medical marijuana is becoming more accessible to the people who need it. Still, even though more...",
             ],
-            imageUrl: "image-for-cannabis-effects.jpg",
+            imageUrl: "abstract-971441_1280-1.jpg",
             imageAlt: "Cannabis, Medical Use",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/cannabis-lets-talk-about-the-effects"
         },
         {
             title: "IS CBD ADDICTIVE? LET’S TAKE A LOOK",
@@ -510,9 +550,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "CBD is everywhere! You can find it in: Oils Creams Patches Beauty products Salves Tinctures Vapes Edibles You name it. Someone has probably found a...",
             ],
-            imageUrl: "image-for-is-cbd-addictive.jpg",
+            imageUrl: "cbd-4469987_1280.jpg",
             imageAlt: "Marijuana, CBD",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/is-cbd-addictive-lets-take-a-look"
         },
         {
             title: "8 DIFFERENCES BETWEEN MEDICAL MARIJUANA AND RECREATIONAL MARIJUANA",
@@ -522,9 +563,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "If you are like a lot of Americans, when you hear the word “marijuana,” your mind jumps to the street drug. But, you may have...",
             ],
-            imageUrl: "image-for-medical-vs-recreational-marijuana.jpg",
+            imageUrl: "pain-3009613_1280.jpg",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-street-drug"
         },
         {
             title: "MEDICAL MARIJUANA: LET’S TALK FACTS",
@@ -534,9 +576,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Medical marijuana has been getting a lot of attention over the last few years. Some good news. And some bad news. Because street use of...",
             ],
-            imageUrl: "image-for-medical-marijuana-facts.jpg",
+            imageUrl: "addict.png",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-facts"
         },
         {
             title: "MEDICAL MARIJUANA FAQS",
@@ -546,9 +589,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Medical marijuana has been getting a lot of attention over the last few years – some good and some bad. We are proud to be...",
             ],
-            imageUrl: "image-for-medical-marijuana-faqs-2020.jpg",
+            imageUrl: "back-5163495_1280.jpg",
             imageAlt: "Cannabis Doctor in Sarasota – Emerald Medical Group",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-faqs"
         },
         {
             title: "THE BENEFITS AND USES OF MEDICAL MARIJUANA",
@@ -558,9 +602,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Medical marijuana has become increasingly common over the past decade. It’s been legalized in nearly 30 states, including Florida, and it seems like it can...",
             ],
-            imageUrl: "image-for-benefits-uses-medical-marijuana.jpg",
+            imageUrl: "cbd-4469987_1280.jpg",
             imageAlt: "Marijuana, CBD",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/benefits-medical-marijuana"
         },
         {
             title: "MEDICAL MARIJUANA: HOW TO USE IT SAFELY",
@@ -570,9 +615,10 @@ export default function BlogDesktop() {
             paragraphs: [
                 "Medical marijuana has become increasingly common over the past decade. It’s been legalized in nearly 30 states, including Florida, and it seems like it can...",
             ],
-            imageUrl: "image-for-safe-use-medical-marijuana.jpg",
+            imageUrl: "addict.png",
             imageAlt: "Medical Marijuana",
-            buttonText: "READ MORE"
+            buttonText: "READ MORE",
+            url: "/medical-marijuana-safely"
         }
 ];
 
