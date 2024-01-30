@@ -1,3 +1,22 @@
 .container {
     margin-top: 40px;
 }
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #474530
+}
+
+.cardContainer .card {
+    width: calc(25% - 20px);
+    /* Other card styles can be added here if needed */
+    color: white;
+}

@@ -1,0 +1,55 @@
+.scheduleAppointmentContainer {
+    background-color: #EFF;
+    padding-top: 20px; /* Adjust top padding as needed */
+    position: relative; /* Needed as a reference for the absolute positioning of the card */
+    height: 947px; /* Full height of the viewport */
+}
+
+.card {
+    background-color: white;
+    padding: 20px; /* Adjust padding as needed */
+    width: 682px; /* Set the width of the card */
+    height: 747px; /* Set the height of the card */
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+    left: 200px; /* Distance from the left of the page */
+    top: 20px; /* Distance from the top of the page */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.input, .textarea {
+    margin: 10px 0; /* Spacing between inputs */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Adjust border as needed */
+    width: calc(50% - 22px); /* Adjust width as needed, considering padding and margins */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.textarea {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Spacing above the checkbox */
+}
+
+.checkboxContainer input[type="checkbox"] {
+    margin-right: 10px; /* Spacing between checkbox and text */
+}
+
+.checkboxContainer p {
+    margin: 0; /* Removes default margin from p element */
+}

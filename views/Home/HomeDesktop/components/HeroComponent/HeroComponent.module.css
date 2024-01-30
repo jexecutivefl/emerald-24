@@ -4,18 +4,19 @@
   color: black;
   padding: 50px;
   height: 500px;
+  width: 100%;
 }
 
 .title {
-  font-size: 2em;
+  font-size: 70px;
   margin-bottom: 20px;
-  padding-left: 200px; /* Adjust as needed */
+  padding-left: 100px; /* Adjust as needed */
 }
 
 .description {
-  font-size: 1em;
+  font-size: 18px;
   margin-bottom: 30px;
-  padding-left: 200px; /* Adjust as needed */
+  padding-left: 100px; /* Adjust as needed */
   line-height: .1em; /* Adjust line height as needed */
 }
 

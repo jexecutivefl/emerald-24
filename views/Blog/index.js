@@ -640,7 +640,6 @@ export default function BlogDesktop() {
                         imageAlt={post.imageAlt}
                         buttonText={post.buttonText}
                         url={post.url} // Pass the URL to the BlogCard
-
                     />
                 ))}
             </div>

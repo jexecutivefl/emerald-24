@@ -14,7 +14,7 @@ const Section1View = () => {
 
     return (
         <Section>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '60px', marginBottom: '70px'}}>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', marginBottom: '120px'}}>
                     <div style={cardStyle}>
                         <CardComponent

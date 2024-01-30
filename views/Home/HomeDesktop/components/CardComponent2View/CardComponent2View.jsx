@@ -1,33 +1,23 @@
-
-import icon1 from '/public/HIV.png';
-import icon2 from '/public/HIV.png';
-import icon3 from '/public/HIV.png';
-import icon4 from '/public/HIV.png';
-import icon5 from '/public/HIV.png';
-import icon6 from '/public/HIV.png';
-import icon7 from '/public/HIV.png';
-import icon8 from '/public/HIV.png';
-
 import CardComponent2 from "@/components/cards/Card2Component";
 import styles from './CardComponentView2.module.css';
+
+import icon1 from 'public/HIV.png';
+import icon2 from '/public/anxiety.png';
+import icon3 from '/public/chronic-pain.png';
+import icon4 from '/public/insomnia.png';
+import icon5 from '/public/muscle-spasms.png';
+import icon6 from '/public/nausea.png';
+import icon7 from '/public/glaucoma.png';
+import icon8 from '/public/seizures.png';
+
+
 
 
 const CardComponent2View = () => {
     return (
         <div className={styles.container}>
-            <style>{`
-                .cardContainer {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    gap: 20px;
-                }
-                .cardContainer .card {
-                    width: calc(25% - 20px);
-                    /* Other card styles can be added here if needed */
-                }
-            `}</style>
-            <div className="cardContainer">
+            <h2 className={styles.h2}>Qualifying Medical Conditions</h2>
+            <div className={styles.cardContainer}>
                 <CardComponent2 icon={icon1} title="HIV & Cancer" />
                 <CardComponent2 icon={icon2} title="Anxiety & Depression" />
                 <CardComponent2 icon={icon3} title="Chronic Pain" />

@@ -32,7 +32,7 @@ const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
                 {renderTextWithLineBreaks(heading, true)}
             </h2>
             {renderTextWithLineBreaks(description)}
-            <div style={{ paddingLeft: '200px' }}>
+            <div style={{ paddingLeft: '100px' }}>
                 <ButtonComponent />
             </div>
         </div>
