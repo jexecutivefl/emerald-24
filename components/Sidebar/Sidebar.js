@@ -15,23 +15,22 @@ const Sidebar = forwardRef(({ closeSidebar }, ref) => {
                className={styles.sidebarLink}
                onClick={closeSidebar}>Home</a>
 
-            <a href="/"
+            <a href="/about"
                className={styles.sidebarLink}
                onClick={closeSidebar}>About Us</a>
 
-            <a href="/"
+            <a href="/medical-marijuana"
                className={styles.sidebarLink}
-               onClick={closeSidebar}>medical Marijuana </a>
+               onClick={closeSidebar}>Medical Marijuana </a>
 
-            <a href="/"
+            <a href="/blog"
                className={styles.sidebarLink}
                onClick={closeSidebar}>Blog</a>
 
 
-            <a href="/"
+            <a href="/contact"
                className={styles.sidebarLink}
                onClick={closeSidebar}>Contact Us</a>
-
 
 
             {/* Add other links and a button similar to the above line */}
