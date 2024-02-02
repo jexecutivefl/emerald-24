@@ -1,0 +1,22 @@
+/* Section2View.module.css */
+
+.container {
+    padding: 20px; /* Add padding to prevent content from touching the edges of the screen */
+    text-align: center; /* Center the text for a better mobile experience */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjust font sizes for smaller screens if necessary */
+    .title {
+        font-size: 24px; /* Slightly smaller font size for titles on mobile */
+    }
+
+    .description {
+        font-size: 16px; /* Adjust description text to be legible on smaller screens */
+    }
+}
+
+/* You may need to adjust these class names based on your actual HTML structure */
+/* Ensure that the title and description class names correspond to the elements within your Section2 component */
+

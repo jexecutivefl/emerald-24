@@ -1,11 +1,9 @@
 import CardComponent3 from "@/components/cards/CardComponent3";
-import Section from "@/components/Section/Section";
 import styles from './CardComponent3View.module.css';
 const CardComponent3View = () => {
     return (
-        <Section>
         <div className={styles.container}>
-            <div style={{ display: 'flex', marginBottom: '20px', gap: '20px' }}>
+            <div style={{  marginBottom: '20px', gap: '20px' }}>
 
                 <CardComponent3
                     imageUrl="/women-with-glasses.jpeg"
@@ -26,7 +24,6 @@ const CardComponent3View = () => {
                 />
             </div>
         </div>
-        </Section>
     );
 };
 

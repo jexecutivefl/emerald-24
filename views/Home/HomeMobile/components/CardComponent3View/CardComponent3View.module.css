@@ -1,3 +1,57 @@
+/* Main container styling */
 .container {
     margin-top: 40px;
+    padding: 0 20px; /* Add padding for smaller screens to avoid content touching the edges */
+}
+
+/* Style adjustments for the cards container, making it responsive */
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center cards for aesthetics */
+}
+
+/* Card-specific styling for consistency and responsiveness */
+.card {
+    background: #fff; /* Assuming a white background for cards */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    overflow: hidden; /* Ensures content does not overflow the card boundaries */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out content within the card */
+    max-width: 300px; /* Maximum width of cards to ensure they don't stretch too much on larger screens */
+    width: 100%; /* Ensures cards are responsive and fill their container as needed */
+}
+
+.card img {
+    width: 100%; /* Ensure images cover the card width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the space nicely */
+}
+
+.cardTitle,
+.cardDescription {
+    padding: 15px; /* Padding inside the card for text content */
+    text-align: left; /* Align text to the left */
+}
+
+.cardTitle {
+    font-size: 18px; /* Title font size */
+    font-weight: bold; /* Make title bold */
+    margin-bottom: 10px; /* Space between title and description */
+}
+
+.cardDescription {
+    font-size: 14px; /* Description font size */
+    color: #666; /* Lighter text color for the description */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .cardsContainer {
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: center; /* Center-align the cards */
+    }
 }

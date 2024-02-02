@@ -20,7 +20,7 @@ const Footer = () => {
                 </p>
             </div>
             <div className={styles.contactContainer}>
-                <h2>Contact Us:</h2>
+                <h2 className={styles.h2}>Contact Us:</h2>
                 <button className={styles.numberButton} onClick={handleCall}>(941) 424-0012</button>
                 <p className={styles.emailAddress}>info@emeraldmedicalgroup.com</p>
             </div>

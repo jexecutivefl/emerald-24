@@ -1,23 +1,18 @@
 import Main from "@/layout/Main";
-import HeroComponent from "@/views/Home/HomeDesktop/components/HeroComponent";
-import Section1View from "@/views/Home/HomeDesktop/components/Section1View";
-import CardComponent2View from "@/views/Home/HomeDesktop/components/CardComponent2View";
-import Section2View from "@/views/Home/HomeDesktop/components/Section2View";
-import CardComponent3View from "@/views/Home/HomeDesktop/components/CardComponent3View/CardComponent3View";
-import Section3View from "@/views/Home/HomeDesktop/components/Section3View";
-import Image from "next/image";
+
+import ScheduleAnAppointmentToday from "@/components/ScheduleAnAppointment/ScheduleAnAppointmentToday";
+import HeroComponent from "@/views/Home/HomeMobile/components/HeroComponent";
+import Section1View from "@/views/Home/HomeMobile/components/Section1View";
+import CardComponent2View from "@/views/Home/HomeMobile/components/CardComponent2View";
+import Section2View from "@/views/Home/HomeMobile/components/Section2View";
+import CardComponent3View from "@/views/Home/HomeMobile/components/CardComponent3View/CardComponent3View";
+import Section3View from "@/views/Home/HomeMobile/components/Section3View";
 
 
 export default function HomeDesktop() {
 
 
     return <Main isMobile={true}>
-        {/*<Image*/}
-        {/*    src="/under-construction.jpeg" // Replace with your image path*/}
-        {/*    alt="Description of Image" // Provide an alternative text for the image*/}
-        {/*    width={400} // Adjust the width as needed*/}
-        {/*    height={550} // Adjust the height as needed*/}
-        {/*/>*/}
         <HeroComponent
             heading={"Patient-Focused and \nPersonalized Care."}
             description={"Experience a medical team here in Sarasota that listens and creates a care plan that\n " +

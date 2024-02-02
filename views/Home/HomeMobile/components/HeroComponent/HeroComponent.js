@@ -10,7 +10,7 @@ const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
         textAlign: 'left',
         color: 'white',
         padding: '50px',
-        height: '500px', // You might need to adjust the height
+        height: '300px', // You might need to adjust the height
         // Add other styles as needed
     };
 
@@ -32,7 +32,7 @@ const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
                 {renderTextWithLineBreaks(heading, true)}
             </h2>
             {renderTextWithLineBreaks(description)}
-            <div style={{ paddingLeft: '200px' }}>
+            <div style={{ paddingLeft: '50px' }}>
                 <ButtonComponent />
             </div>
         </div>

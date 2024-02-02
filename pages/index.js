@@ -35,7 +35,7 @@ export default function Home() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <HomeDesktop />}
+          {isMobile ? <HomeMobile /> : <HomeDesktop />}
         </main>
       </>
   );
