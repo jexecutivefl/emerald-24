@@ -12,6 +12,7 @@ const CardComponent = ({ imageUrl, title, description }) => {
                 className={styles.button}
                 title="Read More"
             />
+            <br />
         </div>
     );
 };

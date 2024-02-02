@@ -1,3 +1,9 @@
 .container {
-    width: 415px;
+    width: 415px; /* Fixed width */
+    margin: 0 auto; /* Centers the container horizontally */
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers content vertically within the container */
+    align-items: center; /* Centers content horizontally within the container */
+    /* Add additional styling as needed */
 }

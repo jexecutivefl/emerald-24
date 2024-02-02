@@ -2,14 +2,19 @@
 .container {
     margin-top: 40px;
     padding: 0 20px; /* Add padding for smaller screens to avoid content touching the edges */
+    display: flex; /* Enable flex layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align the children horizontally */
 }
 
-/* Style adjustments for the cards container, making it responsive */
+/* Style adjustments for the cards container, making it responsive and centered */
 .cardsContainer {
     display: flex;
+    flex-direction: row; /* Arrange cards in a row by default */
     flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
     gap: 20px; /* Space between cards */
-    justify-content: center; /* Center cards for aesthetics */
+    justify-content: center; /* Center cards horizontally */
+    width: 100%; /* Take up 100% of the container's width */
 }
 
 /* Card-specific styling for consistency and responsiveness */
@@ -34,7 +39,7 @@
 .cardTitle,
 .cardDescription {
     padding: 15px; /* Padding inside the card for text content */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Center-align text for a more uniform look */
 }
 
 .cardTitle {
@@ -52,6 +57,8 @@
 @media (max-width: 768px) {
     .cardsContainer {
         flex-direction: column; /* Stack the cards vertically */
-        align-items: center; /* Center-align the cards */
+        align-items: center; /* Ensure cards are centered */
     }
+
+    /* Additional adjustments for mobile if necessary */
 }
