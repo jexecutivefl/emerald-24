@@ -15,7 +15,7 @@ const Section1View = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        padding: '0 20px' // Add some padding on the sides for mobile
+        width: '390px'
     };
 
     const cardsContainerStyle = {
@@ -23,7 +23,7 @@ const Section1View = () => {
         flexDirection: 'column', // Stack cards vertically on mobile
         alignItems: 'center',
         marginBottom: '60px', // Reduced bottom margin for mobile
-        width: '100%' // Use full width to accommodate smaller screens
+        width: '290px' // Use full width to accommodate smaller screens
     };
 
     return (

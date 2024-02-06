@@ -1,5 +1,5 @@
 .container {
-    width: 415px; /* Fixed width */
+    width: 395px; /* Fixed width */
     margin: 0 auto; /* Centers the container horizontally */
     display: flex; /* Enables Flexbox */
     flex-direction: column; /* Stacks children vertically */

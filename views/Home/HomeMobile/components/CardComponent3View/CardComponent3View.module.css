@@ -1,10 +1,11 @@
 /* Main container styling */
 .container {
     margin-top: 40px;
-    padding: 0 20px; /* Add padding for smaller screens to avoid content touching the edges */
     display: flex; /* Enable flex layout */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center-align the children horizontally */
+    width: 330px;
+    padding-left: 30px
 }
 
 /* Style adjustments for the cards container, making it responsive and centered */

@@ -11,6 +11,7 @@ const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
         color: 'white',
         padding: '50px',
         height: '375px', // You might need to adjust the height
+        width: '290px'
         // Add other styles as needed
     };
 

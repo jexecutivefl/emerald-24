@@ -1,7 +1,6 @@
 .navbar {
   display: flex;
   background-color: transparent; /* Set background to transparent */
-  padding: 0 30px;
   height: 150px;
   width: 1450px;
   align-items: center;

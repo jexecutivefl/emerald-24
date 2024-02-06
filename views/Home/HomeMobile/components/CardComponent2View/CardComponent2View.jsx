@@ -21,9 +21,10 @@ const CardComponent2View = () => {
                     flex-wrap: wrap;
                     justify-content: space-around;
                     gap: 20px;
+                    width: 390px;
                 }
                 .cardContainer .card {
-                    width: calc(25% - 20px);
+                    width: calc(20% - 20px);
                     /* Other card styles can be added here if needed */
                 }
             `}</style>
