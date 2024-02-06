@@ -1,8 +1,8 @@
 /* Section2View.module.css */
 
 .container {
-    padding: 20px; /* Add padding to prevent content from touching the edges of the screen */
     text-align: center; /* Center the text for a better mobile experience */
+    padding-left: 17px;
 }
 
 /* Responsive adjustments */
