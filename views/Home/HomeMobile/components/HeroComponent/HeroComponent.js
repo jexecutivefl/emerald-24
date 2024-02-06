@@ -10,7 +10,7 @@ const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
         textAlign: 'left',
         color: 'white',
         padding: '50px',
-        height: '300px', // You might need to adjust the height
+        height: '375px', // You might need to adjust the height
         // Add other styles as needed
     };
 

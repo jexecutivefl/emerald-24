@@ -15,8 +15,8 @@ export default function HomeDesktop() {
     return <Main isMobile={true}>
         <HeroComponent
             heading={"Patient-Focused and \nPersonalized Care."}
-            description={"Experience a medical team here in Sarasota\n that listens and creates a care plan\n that " +
-                "includes your Florida Medical\n Marijuana Registration Card"}
+            description={"Experience a medical team here \n in Sarasota that listens and creates\n a care plan that " +
+                "includes your\n Florida Medical Marijuana\n Registration Card"}
             backgroundImageUrl="/herobackground.jpeg"
         />
         <Section1View />
