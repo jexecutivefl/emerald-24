@@ -9,7 +9,7 @@ const ButtonComponent = () => {
   };
 
   return (
-    <button className={styles.button} onClick={handleCall}>Call Us</button>
+    <button className={styles.button} onClick={handleCall}>Call now 941 421-0012</button>
   );
 };
 

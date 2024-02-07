@@ -30,7 +30,7 @@ export default function MobileNavbar({background}) {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logoAndButtonContainer}>
-                <button className={styles.numberButton} onClick={handleCall}>(941) 909-3582</button>
+                <button className={styles.numberButton} onClick={handleCall}>(941) 421-0012</button>
                 <Link href={'/'}>
                     <Image src="/emerald-logo.png" alt="Emerald Logo" width={300} height={75}/>
                 </Link>

@@ -59,7 +59,7 @@ function Navbar() {
               <div className={styles.buttonContainer}>
                 <ButtonComponent />
               </div>
-              <button className={styles.numberButton} onClick={handleCall}>(941) 909-3582</button>
+              <button className={styles.numberButton} onClick={handleCall}>(941) 421-0012</button>
             </ul>
           </div>
       </nav>
