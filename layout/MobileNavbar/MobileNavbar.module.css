@@ -50,3 +50,24 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+.numberButton {
+    position: absolute;
+    top: -10px; /* Adjust as needed for alignment */
+    left: 0;
+    border: none;
+    font-size: 20px; /* Adjust size as needed */
+    background: transparent;
+    z-index: 1; /* Ensure button is clickable */
+    color: grey;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.logoAndButtonContainer {
+    padding-top: 19px; /* Increased padding-top for more space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Maintain or adjust space below the logo as necessary */
+}

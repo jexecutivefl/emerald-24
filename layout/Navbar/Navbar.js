@@ -48,7 +48,6 @@ function Navbar() {
       <nav className={navbarWhite ? `${styles.navbar} ${styles.navbarWhite}` : styles.navbar}>
         <div className={styles.navContainer}>
           <Link href={'/'}><Image src="/emerald-logo.png" alt='Logo' width={300} height={66}/></Link>
-
             <ul className={styles.navList}>
             <FlexBox direction={'row'} columnGap={'15px'} alignItems={'center'}>
               <li className={styles.navItem}><a href="/" className={styles.navLink}>Home</a></li>

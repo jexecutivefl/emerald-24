@@ -11,6 +11,10 @@ export default function MobileNavbar({background}) {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
+    const handleCall = () => {
+        window.location.href = 'tel:+19419093582'; // replace with your desired phone number
+    };
+
     const handleClickOutside = event => {
         if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
             setIsSidebarOpen(false);
@@ -25,15 +29,10 @@ export default function MobileNavbar({background}) {
     }, []);
     return (
         <nav className={styles.navbar}>
-            <div className={styles.logo}>
+            <div className={styles.logoAndButtonContainer}>
+                <button className={styles.numberButton} onClick={handleCall}>(941) 909-3582</button>
                 <Link href={'/'}>
-                    {
-                        (background === 'light')?(
-                            <Image src="/emerald-logo.png" alt="SellQuickCT Logo" width={300} height={75}/>
-                        ):(
-                            <Image src="/emerald-logo.png" alt="SellQuickCT Logo" width={300} height={75}/>
-                        )
-                    }
+                    <Image src="/emerald-logo.png" alt="Emerald Logo" width={300} height={75}/>
                 </Link>
             </div>
             <div className={styles.hamburger} onClick={toggleSidebar}>
