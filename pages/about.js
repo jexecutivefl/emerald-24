@@ -34,7 +34,7 @@ export default function About() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <AboutUs />}
+          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
         </main>
       </>
   );
