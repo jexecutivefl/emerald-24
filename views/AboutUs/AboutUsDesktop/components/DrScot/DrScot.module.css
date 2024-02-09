@@ -1,0 +1,81 @@
+.profileWrapper {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    padding: 20px; /* Optional: Adds some padding around the container */
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2; /* Very light grey */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    max-width: 900px; /* Maximum width of the container */
+    width: 100%; /* Makes it responsive */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    margin-top: -140px; /* Ensures any extra horizontal space is equally distributed */
+
+}
+
+/* Other styles remain unchanged */
+
+
+.imageWrapper {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.details {
+    margin-left: 20px; /* Spacing between image and text */
+    flex-grow: 1; /* Allow the text to take up remaining space */
+}
+
+.nameTitle {
+    margin: 0;
+    display: inline-flex;
+    align-items: flex-end; /* Keeps text aligned */
+    position: relative; /* Needed for positioning the pseudo-element */
+}
+
+.underline {
+    position: relative; /* Ensures the underline is positioned relative to this element */
+}
+
+.underline:after {
+    content: ''; /* Required for a pseudo-element */
+    display: block;
+    width: 100%; /* Full width of the text */
+    height: 3px; /* Height of the underline */
+    background-color: #54bc77; /* Color of the underline */
+    position: absolute;
+    bottom: -3px; /* Adjust this value to control vertical spacing of the underline */
+    left: 0;
+}
+
+.description {
+    margin-top: 10px; /* Spacing between title and paragraph */
+}
+
+.button {
+    border: none;
+    font-size: 16px; /* Adjust size as needed */
+    background: transparent;
+    color: blue;
+    z-index: 1; /* Ensure button is clickable */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.emailLink {
+    color: blue; /* Example color */
+    text-decoration: none; /* Removes underline from links */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.emailLink:hover, .emailLink:focus {
+    text-decoration: underline; /* Adds underline on hover/focus for better accessibility */
+    color: darkblue; /* Example hover color */
+}

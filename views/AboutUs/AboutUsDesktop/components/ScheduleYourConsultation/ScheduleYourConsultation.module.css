@@ -1,0 +1,36 @@
+/* components/ScheduleYourConsultation.module.css */
+.container {
+    display: flex;
+    justify-content: space-between; /* Corrected the property name */
+    background: #EBEBEB;
+    padding: 20px;
+    margin-top: -155px;
+}
+
+.h2 {
+    color: #54bc77;
+}
+
+.textSection {
+    text-align: left;
+    flex: 1;
+    background: white !important; /* Sets the background color to white */
+    padding: 20px; /* Adds padding around the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust this as needed */
+    margin-left: 170px;
+    max-width: 700px;
+}
+
+.imageSection {
+    display: flex;
+    padding-right: 200px;
+}
+
+.buttonWrapper {
+    width: auto; /* or you can set a specific max-width, e.g., max-width: 200px; */
+    display: flex; /* Center button if needed */
+    justify-content: left; /* Center button horizontally */
+    /* align-items: center; Uncomment if you need vertical centering */
+}

@@ -4,8 +4,9 @@ import HomeDesktop from "@/views/Home/HomeDesktop";
 import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
+import MedicalMarijuana from "@/views/MedicalMarijuana";
 
-export default function MedicalMarijuana() {
+export default function Index() {
 
 
   const [isMobile, setIsMobile] = useState(false);
@@ -35,7 +36,7 @@ export default function MedicalMarijuana() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
+          {isMobile ? <UnderConstructionMobile /> : <MedicalMarijuana />}
         </main>
       </>
   );
