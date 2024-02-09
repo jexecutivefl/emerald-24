@@ -22,6 +22,6 @@ export default function HomeDesktop() {
         <Section2View />
         <CardComponent3View />
         <Section3View />
-        <ScheduleAnAppointmentToday />
+        {/*<ScheduleAnAppointmentToday />*/}
     </Main>;
 };

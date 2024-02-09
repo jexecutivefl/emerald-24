@@ -6,7 +6,7 @@ import Image from "next/image"; // Replace with the actual path to your logo ima
 const Footer = () => {
 
     const handleCall = () => {
-        window.location.href = 'tel:+19419093582'; // replace with your desired phone number
+        window.location.href = 'tel:+19414210012'; // replace with your desired phone number
     };
 
     return (

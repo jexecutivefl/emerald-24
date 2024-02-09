@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
+import AboutUs from "@/views/AboutUs";
 
 export default function About() {
 
@@ -33,7 +34,7 @@ export default function About() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
+          {isMobile ? <UnderConstructionMobile /> : <AboutUs />}
         </main>
       </>
   );
