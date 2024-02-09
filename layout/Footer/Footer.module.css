@@ -6,6 +6,7 @@
     padding-left: 150px;
     padding-top: 100px;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 
 .h2 {
@@ -71,6 +72,7 @@
         align-items: center;
         padding-left: 20px;
         padding-top: 50px;
+        width: 400px;
     }
 
     .logoContainer,
