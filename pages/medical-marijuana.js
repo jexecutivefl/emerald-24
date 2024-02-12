@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import HomeDesktop from "@/views/Home/HomeDesktop";
-import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
-import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
-import MedicalMarijuana from "@/views/MedicalMarijuana";
+import MedicalMarijuanaDesktop from "@/views/MedicalMarijuana/MedicalMarijuanaDesktop";
+import MedicalMarijuanaMobile from "@/views/MedicalMarijuana/MedicalMarijuanaMobile";
 
 export default function Index() {
 
@@ -36,7 +34,7 @@ export default function Index() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <MedicalMarijuana />}
+          {isMobile ? <MedicalMarijuanaMobile /> : <MedicalMarijuanaDesktop />}
         </main>
       </>
   );

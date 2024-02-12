@@ -1,0 +1,27 @@
+.container {
+    display: flex; /* Enables Flexbox layout */
+    align-items: center; /* Vertically centers the content in the container */
+    justify-content: center; /* Horizontally centers the content in the container */
+    flex-direction: column; /* Stacks the flex items vertically */
+}
+
+
+.list {
+    align-items: flex-start; /* Aligns the list items to the left */
+    text-align: left; /* Ensures text within the list is aligned to the left */
+}
+
+/* Add this new class to your CSS module */
+.listContainer {
+    width: 100%; /* Ensures the div takes the full width */
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+}
+
+.imageContainer {
+    /* Additional control over the image's position, if needed */
+    display: flex;
+    justify-content: flex-end; /* Pushes the image container to the right */
+    margin-left: 400px;
+    margin-top: 40px;
+}
