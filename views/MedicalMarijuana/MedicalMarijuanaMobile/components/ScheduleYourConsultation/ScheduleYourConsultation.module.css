@@ -1,36 +1,49 @@
-/* components/ScheduleYourConsultation.module.css */
+/* Mobile-first styles */
 .container {
     display: flex;
-    justify-content: space-between; /* Corrected the property name */
-    background: #EBEBEB;
-    padding: 20px;
-    margin-top: 50px;
-}
-
-.h2 {
-    color: #54bc77;
+    flex-direction: column; /* Stacks child elements vertically by default */
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; /* Ensures no extra margin at the top */
 }
 
 .textSection {
-    text-align: left;
+    text-align: center;
     flex: 1;
-    background: white !important; /* Sets the background color to white */
-    padding: 20px; /* Adds padding around the text */
+    background: white !important;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Adjust this as needed */
-    margin-left: 170px;
-    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* Allows the section to expand fully on small screens */
+    margin: auto;
+    padding-left: 55px; /* Adds padding for mobile */
+    order: 2; /* Ensures text section comes after the image on mobile */
 }
 
 .imageSection {
     display: flex;
-    padding-right: 200px;
+    justify-content: center;
+    padding-right: 0; /* Adjusts padding for all views */
+    flex-basis: 100%; /* Ensures it takes full width */
+    order: 1; /* Image section comes before the text on mobile */
+    padding-left: 35px;
 }
 
 .buttonWrapper {
-    width: auto; /* or you can set a specific max-width, e.g., max-width: 200px; */
-    display: flex; /* Center button if needed */
-    justify-content: left; /* Center button horizontally */
-    /* align-items: center; Uncomment if you need vertical centering */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0; /* Adjust padding for consistency */
+}
+
+/* Adjusted font sizes for readability on mobile, consider adding these if you have specific font-size requirements */
+.h2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+}
+
+.p {
+    font-size: 14px; /* Adjust paragraph font size for readability */
+    text-align: center;
 }
