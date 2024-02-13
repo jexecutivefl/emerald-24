@@ -1,27 +1,28 @@
 .container {
     display: flex; /* Enables Flexbox layout */
-    align-items: center; /* Vertically centers the content in the container */
-    justify-content: center; /* Horizontally centers the content in the container */
     flex-direction: column; /* Stacks the flex items vertically */
+    align-items: stretch; /* Ensures that children stretch to fill the container */
+    justify-content: flex-start; /* Aligns content to the start */
+    width: 100%; /* Ensures the container takes the full width of its parent */
+    max-width: 100%; /* Ensures the container does not exceed the width of its parent */
+    padding: 0; /* Removes padding to allow content to reach the edges */
+    box-sizing: border-box; /* Includes padding in the element's total width and height */
 }
-
 
 .list {
-    align-items: flex-start; /* Aligns the list items to the left */
-    text-align: left; /* Ensures text within the list is aligned to the left */
+    width: 100%; /* Ensures the list takes full width */
 }
 
-/* Add this new class to your CSS module */
 .listContainer {
     width: 100%; /* Ensures the div takes the full width */
     display: flex;
-    justify-content: flex-start; /* Aligns content to the left */
+    flex-direction: column; /* Stacks list and image vertically */
+    align-items: stretch; /* Ensures that children stretch to fill the container */
 }
 
 .imageContainer {
-    /* Additional control over the image's position, if needed */
     display: flex;
-    justify-content: flex-end; /* Pushes the image container to the right */
-    margin-left: 400px;
-    margin-top: 40px;
+    justify-content: center; /* Centers the image */
+    width: 100%; /* Allows the image container to take full width */
+    margin: 20px 0; /* Adds some vertical space around the image */
 }

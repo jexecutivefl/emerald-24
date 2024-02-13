@@ -7,7 +7,11 @@ export default function MakeAnAppointmentMobile() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'right',
-        height: '50px' // This assumes you want to center it vertically in the whole viewport
+        height: '50px', // This assumes you want to center it vertically in the whole viewport
+        paddingLeft: '90px',
+        paddingTop: '150px',
+        paddingBottom: '390px'
+
     };
 
     return (

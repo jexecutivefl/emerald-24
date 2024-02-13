@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 const Hero = () => {
     return (
-        <Section>
             <div className={styles.container}>
                 <p>Medical marijuana is a well-studied and effective treatment for many issues, especially chronic pain.
                     You have probably heard about the many potential benefits, but you need an experienced medical
@@ -38,7 +37,6 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </Section>
     );
 };
 

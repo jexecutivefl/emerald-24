@@ -5,7 +5,7 @@ import ScheduleYourConsultation from "@/views/MedicalMarijuana/MedicalMarijuanaM
 export default function MedicalMarijuanaMobile() {
 
 
-    return <Main isMobile={false}>
+    return <Main isMobile={true}>
         <Hero />
         <SectionOne />
         <ScheduleYourConsultation />
