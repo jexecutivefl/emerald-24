@@ -19,14 +19,14 @@ export default function App({ Component, pageProps }) {
             </Script>
 
             {/* Crazy Egg Tracking Script */}
-            <Script strategy="afterInteractive">
-                {`
-          setTimeout(function(){var a=document.createElement("script");
-          var b=document.getElementsByTagName("script")[0];
-          a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/XXXX/YYYY.js";
-          a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-        `}
-            </Script>
+        {/*    <Script strategy="afterInteractive">*/}
+        {/*        {`*/}
+        {/*  setTimeout(function(){var a=document.createElement("script");*/}
+        {/*  var b=document.getElementsByTagName("script")[0];*/}
+        {/*  a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/XXXX/YYYY.js";*/}
+        {/*  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);*/}
+        {/*`}*/}
+        {/*    </Script>*/}
 
             <Component {...pageProps} />
         </>
