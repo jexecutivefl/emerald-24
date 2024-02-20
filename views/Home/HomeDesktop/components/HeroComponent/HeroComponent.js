@@ -3,7 +3,7 @@ import ButtonComponent from "@/components/ButtonComponent";
 
 const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
     const containerStyle = {
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImageUrl})`, // Added linear gradient for dark overlay
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${backgroundImageUrl})`, // Added linear gradient for dark overlay
         backgroundSize: 'cover', // Covers the entire container
         backgroundPosition: 'center', // Center the image
         backgroundRepeat: 'no-repeat', // Prevents repeating the image
