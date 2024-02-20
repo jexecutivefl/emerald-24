@@ -1,0 +1,17 @@
+/* WhyChooseEmerald.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.h2 {
+    font-size: 50px;
+    color: #474530;
+}
+.p {
+    font-size: 16px;
+}

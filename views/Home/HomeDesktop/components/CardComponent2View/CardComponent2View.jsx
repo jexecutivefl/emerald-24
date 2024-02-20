@@ -18,8 +18,7 @@ const CardComponent2View = () => {
         <div className={styles.container}>
             <h2 className={styles.h2}>Qualifying Medical Conditions</h2>
             <div className={styles.cardContainer}>
-                <CardComponent2 icon={icon1} title="HIV & Cancer" />
-                <CardComponent2 icon={icon2} title="Anxiety & Depression" />
+                <CardComponent2 icon={icon2} title="Anxiety Reduction" />
                 <CardComponent2 icon={icon3} title="Chronic Pain" />
                 <CardComponent2 icon={icon4} title="Insomnia" />
                 <CardComponent2 icon={icon5} title="Muscle Spasms" />
