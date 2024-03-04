@@ -5,11 +5,11 @@ import styles from './ButtonComponent.module.css';
 const ButtonComponent = () => {
 
   const handleCall = () => {
-    window.location.href = 'tel:+19414210012'; // replace with your desired phone number
+    window.location.href = 'tel:+19419263100'; // replace with your desired phone number
   };
 
   return (
-    <button className={styles.button} onClick={handleCall}>Call now 941 421-0012</button>
+    <button className={styles.button} onClick={handleCall}>Call now 941 926-3100</button>
   );
 };
 

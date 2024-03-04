@@ -6,6 +6,9 @@ import Section2View from "@/views/Home/HomeDesktop/components/Section2View";
 import CardComponent3View from "@/views/Home/HomeDesktop/components/CardComponent3View/CardComponent3View";
 import Section3View from "@/views/Home/HomeDesktop/components/Section3View";
 import WhyChooseEmerald from "@/views/Home/HomeDesktop/components/WhyChooseEmerald/WhyChooseEmerald";
+import TrustedMedicalProfessional
+    from "@/views/Home/HomeDesktop/components/TrustedMedicalProfessional/TrustedMedicalProfessional";
+import PricingCards from "@/views/Home/HomeDesktop/components/PricingCards/PricingCards";
 
 export default function HomeDesktop() {
 
@@ -20,6 +23,8 @@ export default function HomeDesktop() {
         <Section1View />
         <WhyChooseEmerald />
         <CardComponent2View />
+        {/*<TrustedMedicalProfessional />*/}
+        <PricingCards />
         <Section2View />
         <CardComponent3View />
         <Section3View />

@@ -9,7 +9,7 @@ export default function AboutUsMobile() {
 
     return <Main isMobile={true}>
         <Hero />
-        <DrScot />
+        {/*<DrScot />*/}
         <ScheduleYourConsultation />
     </Main>;
 };

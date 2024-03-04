@@ -1,0 +1,41 @@
+.trustedMedicalProfessionals {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the children horizontally */
+    background-color: #e7ffef;
+    padding: 20px;
+}
+
+.doctorImage {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 210px; /* Adjust width as necessary */
+    height: 280px;
+    border-radius: 5px; /* Gives the image slightly rounded corners */
+    margin-right: 20px; /* Ensure there's space between the image and the text */
+}
+
+.textSection {
+    display: flex; /* Use flex to center text vertically */
+    flex-direction: column; /* Stack text vertically */
+    justify-content: center; /* Center content vertically in the container */
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 5px; /* Gives the text container slightly rounded corners */
+    width: 600px; /* Set width as required */
+    height: 250px;
+    /* Removed flex-grow to control the width explicitly */
+    text-align: center;
+    /* Adjust the margin to auto to center the text section horizontally */
+    /* It might require additional adjustments based on your layout needs */
+}
+
+.doctorName {
+    margin-top: 0;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.doctorInfo {
+    color: #4b446c;
+    font-size: 18px;
+}
