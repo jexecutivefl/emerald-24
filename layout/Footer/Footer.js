@@ -6,7 +6,7 @@ import Image from "next/image"; // Replace with the actual path to your logo ima
 const Footer = () => {
 
     const handleCall = () => {
-        window.location.href = 'tel:+19414210012'; // replace with your desired phone number
+        window.location.href = 'tel:+9419263100'; // replace with your desired phone number
     };
 
     return (
@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <div className={styles.contactContainer}>
                 <h2 className={styles.h2}>Contact Us:</h2>
-                <button className={styles.numberButton} onClick={handleCall}>(941) 424-0012</button>
+                <button className={styles.numberButton} onClick={handleCall}>(941) 926-3100</button>
                 <p className={styles.emailAddress}>info@emeraldmedicalgroup.com</p>
             </div>
         </footer>

@@ -9,7 +9,7 @@ export default function AboutUsDesktop() {
 
     return <Main isMobile={false}>
         <Hero />
-        <DrScot />
+        {/*<DrScot />*/}
         <ScheduleYourConsultation />
     </Main>;
 };

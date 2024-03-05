@@ -6,6 +6,9 @@
     justify-content: center;
     text-align: center;
     padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e7ffef;
 }
 
 .h2 {
@@ -13,5 +16,6 @@
     color: #474530;
 }
 .p {
-    font-size: 16px;
+    color: #4b446c;
+    font-size: 18px;
 }
