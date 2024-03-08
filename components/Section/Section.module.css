@@ -1,4 +1,7 @@
 .paddedsection {
-    padding-left: 200px;
-    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }

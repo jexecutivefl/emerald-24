@@ -2,7 +2,6 @@
   display: flex;
   background-color: transparent; /* Set background to transparent */
   height: 150px;
-  width: 1450px;
   align-items: center;
   position: sticky; /* Make the navbar sticky */
   top: 0; /* Stick to the top of the viewport */
