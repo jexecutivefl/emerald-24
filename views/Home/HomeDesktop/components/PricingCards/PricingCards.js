@@ -13,7 +13,7 @@ const PricingCards = () => {
                     description="210 days worth of prescriptions"
                     description2="All routes"
                     description3="All dispensaries"
-                    price="$159"
+                    price="$175"
                 />
 
                 <PricingCardsComponent
@@ -21,7 +21,7 @@ const PricingCards = () => {
                     description="210 days worth of prescriptions"
                     description2="All routes"
                     description3="All dispensaries"
-                    price="$99"
+                    price="$125"
                 />
 
                 <PricingCardsComponent
@@ -29,7 +29,7 @@ const PricingCards = () => {
                     description="210 days worth of prescriptions"
                     description2="All routes"
                     description3="All dispensaries"
-                    price="$99"
+                    price="$125"
                 />
             </div>
         </div>
