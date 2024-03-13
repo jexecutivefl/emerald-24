@@ -2,17 +2,21 @@
 .container {
   text-align: center;
   color: black;
-  height: 350px;
+}
+
+.contentContainer{
+  padding: 25px
 }
 
 .title {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 20px;
 }
 
 .description {
-  font-size: 1em;
+  font-size: 1.5em;
   margin-bottom: 30px;
+  line-height: 1.5em
 }
 
 .button{

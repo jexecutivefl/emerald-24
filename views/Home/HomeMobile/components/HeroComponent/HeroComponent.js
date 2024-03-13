@@ -3,15 +3,14 @@ import ButtonComponent from "@/components/ButtonComponent";
 
 const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
     const containerStyle = {
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImageUrl})`, // Added linear gradient for dark overlay
+        backgroundImage: `linear-gradient(rgba(0, 102, 0, 0.8), rgba(0, 105, 0, 0.8)), url(${backgroundImageUrl})`, // Added linear gradient for dark overlay
         backgroundSize: 'cover', // Covers the entire container
         backgroundPosition: 'center', // Center the image
         backgroundRepeat: 'no-repeat', // Prevents repeating the image
         textAlign: 'left',
         color: 'white',
-        padding: '50px',
-        height: '300px', // You might need to adjust the height
-        width: '290px'
+        height: '500px', // You might need to adjust the height
+        width: '375px'
         // Add other styles as needed
     };
 
@@ -29,13 +28,15 @@ const HeroComponent = ({ heading, description, backgroundImageUrl }) => {
 
     return (
         <div className={styles.container} style={containerStyle}>
-            <h2 className={styles.title}>
-                {renderTextWithLineBreaks(heading, true)}
-            </h2>
-            {renderTextWithLineBreaks(description)}
-            <div className={styles.button}>
-                <ButtonComponent />
-            </div>
+         <div className={styles.contentContainer}>
+             <h2 className={styles.title}>
+                 {renderTextWithLineBreaks(heading, true)}
+             </h2>
+             {renderTextWithLineBreaks(description)}
+             <div className={styles.button}>
+                 <ButtonComponent />
+             </div>
+         </div>
         </div>
     );
 };
