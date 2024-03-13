@@ -17,7 +17,6 @@
     max-width: 900px; /* Maximum width of the container */
     width: 100%; /* Makes it responsive */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    margin-top: -140px; /* Ensures any extra horizontal space is equally distributed */
 
 }
 
@@ -30,6 +29,8 @@
 
 .details {
     margin-left: 20px; /* Spacing between image and text */
+    display: flex;
+    flex-direction: column;
     flex-grow: 1; /* Allow the text to take up remaining space */
 }
 
@@ -38,6 +39,7 @@
     display: inline-flex;
     align-items: flex-end; /* Keeps text aligned */
     position: relative; /* Needed for positioning the pseudo-element */
+    padding-bottom: 50px;
 }
 
 .underline {

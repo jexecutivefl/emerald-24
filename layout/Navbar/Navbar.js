@@ -51,7 +51,7 @@ function Navbar() {
             <ul className={styles.navList}>
             <FlexBox direction={'row'} columnGap={'15px'} alignItems={'center'}>
               <li className={styles.navItem}><a href="/" className={styles.navLink}>Home</a></li>
-              <li className={styles.navItem}><a href="/about" className={styles.navLink}>About Us</a></li>
+              <li className={styles.navItem}><a href="/about-us" className={styles.navLink}>About Us</a></li>
               <li className={styles.navItem}><a href="/medical-marijuana" className={styles.navLink}>Medical Marijuana</a></li>
               <li className={styles.navItem}><a href="/blog" className={styles.navLink}>Blog</a></li>
               <li className={styles.navItem}><a href="/contact" className={styles.navLink}>Contact Us</a></li>

@@ -20,7 +20,7 @@ const Section2 = ({ title, description }) => {
             </p>
             <ButtonComponent
                 className={styles.button}
-                title="Learn More About Us"
+                title="Learn More AboutUs Us"
             />
         </section>
     );

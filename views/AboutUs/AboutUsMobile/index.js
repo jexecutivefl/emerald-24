@@ -1,15 +1,15 @@
 import Main from "@/layout/Main";
 import Hero from "@/views/AboutUs/AboutUsMobile/components/Hero/Hero";
-import DrScot from "@/views/AboutUs/AboutUsMobile/components/DrScot/DrScot";
 import ScheduleYourConsultation
     from "@/views/AboutUs/AboutUsMobile/components/ScheduleYourConsultation/ScheduleYourConsultation";
+import Dr from "@/views/AboutUs/AboutUsMobile/components/Dr/Dr";
 
 export default function AboutUsMobile() {
 
 
     return <Main isMobile={true}>
         <Hero />
-        {/*<DrScot />*/}
+        <Dr />
         <ScheduleYourConsultation />
     </Main>;
 };

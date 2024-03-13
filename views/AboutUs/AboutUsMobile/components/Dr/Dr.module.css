@@ -1,0 +1,62 @@
+/* Dr.module.css */
+.profileWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profileContainer {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners for a soft, modern look */
+    width: 100%;
+    max-width: 600px; /* Optimal width for mobile screens */
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center; /* Center the image */
+}
+
+.details {
+    text-align: center; /* Center-align text for mobile readability */
+}
+
+.nameTitle {
+    font-size: 20px; /* Larger font size for headings */
+    font-weight: bold; /* Material Design emphasis */
+}
+
+.underline:after {
+    background-color: #6200EA; /* Material Design primary color */
+    height: 2px; /* Subtle underline */
+}
+
+.description {
+    font-size: 16px; /* Readability on mobile screens */
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #6200EA; /* Material Design primary color */
+    color: #FFFFFF; /* Contrast text color */
+    border: none;
+    border-radius: 4px; /* Rounded edges */
+    padding: 12px 24px; /* Touch-friendly button size */
+    margin-top: 20px; /* Spacing above the button */
+    cursor: pointer;
+    display: inline-block; /* Enable block properties for spacing */
+    font-size: 16px; /* Readable font size */
+}
+
+.emailLink {
+    color: #6200EA; /* Cohesive with Material Design color scheme */
+    text-decoration: none; /* Clean, modern look */
+}
+
+.emailLink:hover, .emailLink:focus {
+    text-decoration: underline; /* Accessibility and feedback */
+}

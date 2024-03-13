@@ -15,7 +15,7 @@ const Sidebar = forwardRef(({ closeSidebar }, ref) => {
                className={styles.sidebarLink}
                onClick={closeSidebar}>Home</a>
 
-            <a href="/about"
+            <a href="/pages/about-us"
                className={styles.sidebarLink}
                onClick={closeSidebar}>About Us</a>
 

@@ -14,9 +14,8 @@ export default function HomeDesktop() {
 
     return <Main isMobile={true}>
         <HeroComponent
-            heading={"Patient-Focused and \nPersonalized Care."}
-            description={"Experience a medical team here \n in Sarasota that listens and creates\n a care plan that " +
-                "includes your\n Florida Medical Marijuana\n Registration Card"}
+            heading={"Emerald Medical Group of Sarasota."}
+            description={"Sarasota's Marijuana Doctor. 3900 Clark Road, 34233"}
             backgroundImageUrl="/herobackground.jpeg"
         />
         <Section1View />

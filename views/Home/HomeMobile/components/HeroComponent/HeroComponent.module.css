@@ -8,13 +8,16 @@
 .title {
   font-size: 2em;
   margin-bottom: 20px;
-  padding-left: 50px; /* Adjust as needed */
 }
 
 .description {
   font-size: 1em;
   margin-bottom: 30px;
-  padding-left: 50px; /* Adjust as needed */
-  line-height: .1em; /* Adjust line height as needed */
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
