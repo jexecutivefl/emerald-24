@@ -6,7 +6,7 @@ const Section2View = () => {
         <div className={styles.container}>
             <Section2
             title="Medical Marijuana  Made Simple"
-            description="Don’t let another day go by feeling less than your best. Come see Dr. Lance and the team here
+            description="Don’t let another day go by feeling less than your best. Come see Dr. Christian and the team here
              at Emerald – let us restore your energy, relieve your pain, and help you live your best life today."
             />
         </div>
