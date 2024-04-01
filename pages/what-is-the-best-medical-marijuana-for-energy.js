@@ -4,6 +4,10 @@ import HomeDesktop from "@/views/Home/HomeDesktop";
 import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
+import WhatIsTheBestMedicalMarijuanaForEnergyDesktop
+    from "@/views/WhatIsTheBestMedicalMarijuanaForEnergy/WhatIsTheBestMedicalMarijuanaForEnergyDesktop";
+import WhatIsTheBestMedicalMarijuanaForEnergyMobile
+    from "@/views/WhatIsTheBestMedicalMarijuanaForEnergy/WhatIsTheBestMedicalMarijuanaForEnergyMobile";
 
 export default function WhatIsTheBestMedicalMarijuanaForEnergy() {
 
@@ -35,7 +39,7 @@ export default function WhatIsTheBestMedicalMarijuanaForEnergy() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
+          {isMobile ? <WhatIsTheBestMedicalMarijuanaForEnergyMobile /> : <WhatIsTheBestMedicalMarijuanaForEnergyDesktop />}
         </main>
       </>
   );

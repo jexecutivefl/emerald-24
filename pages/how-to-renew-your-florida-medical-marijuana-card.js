@@ -4,6 +4,10 @@ import HomeDesktop from "@/views/Home/HomeDesktop";
 import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
+import HowToRenewYourFloridaMedicalMarijuanaCardDesktop
+    from "@/views/HowToRenewYourFloridaMedicalMarijuanaCard/HowToRenewYourFloridaMedicalMarijuanaCardDesktop";
+import HowToRenewYourFloridaMedicalMarijuanaCardMobile
+    from "@/views/HowToRenewYourFloridaMedicalMarijuanaCard/HowToRenewYourFloridaMedicalMarijuanaCardMobile";
 
 export default function HowToRenewYourFloridaMedicalMarijuanaCard() {
 
@@ -35,7 +39,7 @@ export default function HowToRenewYourFloridaMedicalMarijuanaCard() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
+          {isMobile ? <HowToRenewYourFloridaMedicalMarijuanaCardMobile /> : <HowToRenewYourFloridaMedicalMarijuanaCardDesktop />}
         </main>
       </>
   );

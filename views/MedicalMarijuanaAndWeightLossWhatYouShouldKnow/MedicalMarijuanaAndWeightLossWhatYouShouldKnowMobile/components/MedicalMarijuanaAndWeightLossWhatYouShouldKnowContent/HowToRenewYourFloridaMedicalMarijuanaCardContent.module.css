@@ -1,0 +1,36 @@
+/* styles/MedicalMarijuanaAndWeightLossWhatYouShouldKnowContent.module.css */
+.contentContainer {
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin: 20px;
+    width: 100%; /* Updated to be width-responsive */
+    max-width: 390px; /* Ensures it doesn't exceed this width on larger screens */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.title {
+    color: #333;
+    font-size: 24px; /* Default size for larger screens */
+    margin-bottom: 16px;
+}
+
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    .title {
+        font-size: 20px; /* Slightly smaller font size for smaller devices */
+    }
+}
+
+/* Responsive adjustments for very small screens, e.g., mobile phones in portrait mode */
+@media (max-width: 480px) {
+    .contentContainer {
+        padding: 10px; /* Reduced padding for smaller screens */
+        margin: 10px;
+    }
+
+    .title {
+        font-size: 18px; /* Further reduced font size for better readability */
+    }
+    /* Adjust other elements as needed for smaller screens */
+}

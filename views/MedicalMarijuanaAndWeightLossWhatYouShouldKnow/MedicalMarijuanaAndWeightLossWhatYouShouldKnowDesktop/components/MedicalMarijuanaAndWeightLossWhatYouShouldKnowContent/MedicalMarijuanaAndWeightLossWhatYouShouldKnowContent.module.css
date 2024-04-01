@@ -1,0 +1,16 @@
+/* styles/MedicalMarijuanaAndWeightLossWhatYouShouldKnowContent.module.css */
+.contentContainer {
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin: 20px;
+    width: 850px;
+}
+
+.title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* Add more styles here as needed */

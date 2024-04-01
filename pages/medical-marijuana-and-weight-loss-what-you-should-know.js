@@ -4,6 +4,10 @@ import HomeDesktop from "@/views/Home/HomeDesktop";
 import HomeMobile from "@/views/Home/HomeMobile";
 import UnderConstructionMobile from "@/views/UnderConstruction/UnderConstructionMobile";
 import UnderConstructionDesktop from "@/views/UnderConstruction/UnderConstructionDesktop";
+import MedicalMarijuanaAndWeightLossWhatYouShouldKnowDesktop
+    from "@/views/MedicalMarijuanaAndWeightLossWhatYouShouldKnow/MedicalMarijuanaAndWeightLossWhatYouShouldKnowDesktop";
+import MedicalMarijuanaAndWeightLossWhatYouShouldKnowMobile
+    from "@/views/MedicalMarijuanaAndWeightLossWhatYouShouldKnow/MedicalMarijuanaAndWeightLossWhatYouShouldKnowMobile";
 
 export default function MedicalMarijuanaAndWeightLossWhatYouShouldKnow() {
 
@@ -35,7 +39,7 @@ export default function MedicalMarijuanaAndWeightLossWhatYouShouldKnow() {
           </>
         </Head>
         <main>
-          {isMobile ? <UnderConstructionMobile /> : <UnderConstructionDesktop />}
+          {isMobile ? <MedicalMarijuanaAndWeightLossWhatYouShouldKnowMobile /> : <MedicalMarijuanaAndWeightLossWhatYouShouldKnowDesktop />}
         </main>
       </>
   );
